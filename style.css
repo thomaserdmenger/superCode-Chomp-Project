@@ -80,15 +80,16 @@ header div p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
-.works-section h2 {
+.works-section h2,
+.menu-section h2 {
   background-color: var(--color-pink);
   width: 100%;
   color: var(--color-white);
   text-align: center;
   padding: 1.5rem 0;
-  margin-bottom: 1rem;
 }
 
 .steps-container {
@@ -96,7 +97,11 @@ header div p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 92git vw;
+  width: 92vw;
+}
+
+.steps-container:nth-of-type(1) {
+  margin-top: 1rem;
 }
 
 .steps-container p:nth-of-type(1) {
@@ -110,4 +115,43 @@ header div p {
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 1rem;
+}
+
+/* ! Menu Section */
+
+.menu-section {
+  margin-bottom: 2rem;
+}
+
+.menu-dog {
+  height: 34vw;
+  background: url(./assets/images/Rectangle\ 3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.menu-food {
+  height: 60vw;
+  background: url(./assets/images/food.png) no-repeat center;
+  background-size: 45vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2.25rem 4.4375rem 0 4.4375rem;
+  padding: 9vw 17vw 0 17vw;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.menu-food p:nth-of-type(1) {
+  margin-bottom: 58px;
+}
+
+.menu-food p:nth-of-type(2) {
+  text-align: right;
+  margin-bottom: 58px;
+}
+
+.menu-description {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 1rem;
 }
