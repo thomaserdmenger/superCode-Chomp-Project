@@ -10,6 +10,8 @@
 
 :root {
   --color-black: hsla(0, 0%, 0%, 1);
+  --color-black-light: hsla(0, 0%, 14%, 1);
+  --color-gray: hsla(0, 0%, 48%, 1);
   --color-white: hsla(0, 0%, 100%, 1);
   --color-pink: hsla(3, 60%, 69%, 1);
 }
@@ -68,7 +70,7 @@ header div p {
   color: var(--color-pink);
   font-size: 1rem;
   font-weight: 900;
-  width: 25vw;
+  width: 35vw;
   text-align: right;
   margin-bottom: 31.9375rem;
 }
@@ -154,4 +156,59 @@ header div p {
   text-align: center;
   font-size: 1rem;
   padding: 0 1rem;
+}
+
+/* ! Footer */
+
+footer {
+  color: var(--color-white);
+  background-color: var(--color-black-light);
+  padding: 1rem;
+  text-align: center;
+}
+footer p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+footer p:nth-of-type(1) {
+  margin-bottom: 2rem;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+footer form input {
+  width: 100%;
+  font-weight: 700;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type='email'],
+input[type='email']::placeholder {
+  color: var(--color-gray);
+}
+
+input[type='submit'] {
+  color: var(--color-white);
+  background-color: var(--color-pink);
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
 }
