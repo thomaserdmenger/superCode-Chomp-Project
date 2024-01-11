@@ -2,7 +2,7 @@
 
 ## Built with
 
-- Resonsive Design
+- Responsive Design
 - Mobile First
 - Flexbox Layout
 - CSS Custom Properties
