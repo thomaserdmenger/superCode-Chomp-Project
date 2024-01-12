@@ -40,6 +40,10 @@ h2 {
   font-weight: 900;
 }
 
+a {
+  all: unset;
+}
+
 /* # Mobile */
 
 /* ! Header */
